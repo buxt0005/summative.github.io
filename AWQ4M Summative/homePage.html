@@ -1,0 +1,63 @@
+<html>
+
+	<head>
+
+		<title> Welcome To Ottawa | Bienvenue à Ottawa </title>
+
+		<link href = "style.css" rel = "stylesheet" type = "text/css"/>
+		<link rel = "shortcut icon" href = "Images/Background_Images/logo.png" type = "png">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+		<meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8"/>
+
+		<script>
+			function myFunction1() {
+				document.getElementById("myDropdown1").classList.toggle("show1");
+			}
+			window.onclick = function(event) {
+			if (!event.target.matches('.dropbtn1')) {
+				var dropdowns1 = document.getElementsByClassName("dropdown-content1");
+				var i;
+					for (i = 0; i <dropdowns1.length; i++) {
+						var openDropdown1 = dropdowns[i];
+							if (openDropdown1.classList.contains('show1')) {	
+								openDropdown1.classList.remove('show1');
+								}
+							}
+						}
+					}
+		</script>
+	</head>
+	
+	<body>
+	
+		<div id = "homePageHeading">
+			<h1> Welcome To Ottawa! </h1>
+			<h2> Bienvenue à Ottawa! </h2>
+		</div>
+	
+		<div id = "cornerLogo">
+			<img src = "Images/Background_Images/logo.png" height = 50px, width = 50px>
+		</div>
+		
+		<div class = "dropdown1">
+			<button onclick = "myFunction1()" class = "dropbtn1"> Navigation </button>
+		
+			<div id = "myDropdown1" class = "dropdown-content1">
+				<a href = "photos.html"> Explanations (Explications) </a>
+				<a href = "gallery.html"> Gallery (Gallérie) </a>
+				<a href = "howToUseYourCamera.html"> Camera Guide (Mode D'Emploi Pour Un Appareil Photo) </a>
+			</div>
+		</div> 
+		
+		<div id = "information">
+			Founded on the soil of the Algonquin people is the city of Ottawa, the capital of Canada. It was originally named Bytown after Colonel John By in 1826. The name change occurred around the first week of January 1855. The origins of where 'Ottawa' originated from are unknown. However the most common theory is that it was derived from a First Nation tribe, Odawa. Now in modern day Ottawa, it's a very diverse city with many different types of people, whether it be of race, religion, belief, or lifestyle. </br> </br>
+			&emsp; Sur la terre des peuples Algonquin est la ville d'Ottawa, la capital de Canada. Initialement, Ottawa a été nommé Bytown après Colonel John By en 1826. Pendant la première semaine de janvier 1855, le nom a été changé à Ottawa. Les origines du nom 'Ottawa' sont inconnues. Par contre, la théorie la plus commune est qu'il est dérivé d'une tribu Autochtone, Odawa. À ce jour, Ottawa est une ville très diverse avec beaucoup différent types de gens, soit c'est de race, réligion, croyance ou mode de vie.  
+		</div>
+		
+		<div id = "backgroundImage">
+			<img src = "Images/Background_Images/parliamentImage.jpg" height = 100%, width = 100%>
+		</div>
+	
+	</body>
+
+</html>
